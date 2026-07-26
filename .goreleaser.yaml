@@ -56,3 +56,16 @@ release:
     ---
 
     Released by [GoReleaser](https://github.com/goreleaser/goreleaser).
+
+homebrew_casks:
+  - name: gdfire
+    binaries:
+      - gdfire
+    homepage: "https://github.com/PigsEyedea/gdfire"
+    description: "Terminal DOOM-style fire animation written in Go"
+    directory: Casks
+    repository:
+      owner: PigsEyedea
+      name: homebrew-tap
+      branch: main
+      token: "{{ .Env.TAP_GITHUB_TOKEN }}"
