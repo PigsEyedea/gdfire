@@ -6,7 +6,7 @@ Set Height 700
 Set Theme "Dracula"
 
 Type "gdfire"
-Sleep 1s
+Sleep 2s
 
 Enter
 
